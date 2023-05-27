@@ -1,0 +1,80 @@
+ .container {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+  }
+
+  .function-menu {
+    flex: 0 0 250px;
+    margin-right: 20px;
+  }
+
+  .function-content {
+    flex: 1;
+  }
+
+  .function-description {
+    margin-bottom: 10px;
+  }
+
+  .function-example {
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  h3 {
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+
+  pre {
+    background-color: #f7f7f7;
+    padding: 10px;
+    border-radius: 4px;
+    overflow-x: auto;
+  }
+
+  code {
+    font-size: 14px;
+  }
+
+  .function-menu {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+
+  .function-menu h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .function-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .function-menu ul li {
+    margin-bottom: 5px;
+  }
+
+  .function-menu ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  .function-menu ul li a:hover {
+    text-decoration: underline;
+  }

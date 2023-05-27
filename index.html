@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nicolekate.js Documentation</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    
+    /* Header Banner */
+    .header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    /* Documentation Layout */
+    .container {
+      display: flex;
+      justify-content: space-between;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    .sidebar {
+      flex-basis: 20%;
+    }
+    
+    .content {
+      flex-basis: 75%;
+    }
+    
+    /* Function Menu */
+    .function-menu {
+      margin-bottom: 20px;
+    }
+    
+    .function-menu h2 {
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 0;
+    }
+    
+    .function-menu ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .function-menu li {
+      margin-bottom: 5px;
+    }
+    
+    .function-menu li a {
+      color: #333;
+      text-decoration: none;
+    }
+    
+    .function-menu li a:hover {
+      text-decoration: underline;
+    }
+    
+    /* Documentation Content */
+    .function-content {
+      margin-bottom: 20px;
+    }
+    
+    .function-content h2 {
+      font-size: 24px;
+      margin-top: 0;
+    }
+    
+    .function-description {
+      margin-bottom: 10px;
+    }
+    
+    .function-example {
+      margin-bottom: 10px;
+    }
+    
+    .function-example h3 {
+      font-size: 18px;
+      margin: 0;
+    }
+    
+    pre {
+      background-color: #f4f4f4;
+      padding: 10px;
+      overflow: auto;
+    }
+    
+    code {
+      font-family: Consolas, monospace;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>NicoleKateJS Documentation</h1>
+  </div>
+  <div class="container">
+    <div class="sidebar">
+      <div class="function-menu">
+        <h2>Functions</h2>
+        <ul>
+          <li><a href="#append">append</a></li>
+          <li><a href="#prepend">prepend</a></li>
+          <li><a href="#insertAfter">insertAfter</a></li>
+          <li><a href="#insertBefore">insertBefore</a></li>
+          <li><a href="#html">html</a></li>
+          <li><a href="#css">css</a></li>
+          <li><a href="#ajax">ajax</a></li>
+          <li><a href="#addClass">addClass</a></li>
+          <li><a href="#click">click</a></li>
+          <li><a href="#autofill">autofill</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="content">
+      <div class="function-content">
+        <h2 id="introduction">Introduction</h2>
+        <div class="function-description">
+<p>Nicolekate.js is a JavaScript framework that provides a convenient way to enhance your web development process using shortcodes. It is designed to make your coding faster and more efficient by simplifying common tasks and providing a concise syntax for manipulating HTML elements.</p>
+</div>
+</div>  <h2 id="getting-started">Getting Started</h2>
+  <div class="function-description">
+    <p>To get started with Nicolekate.js, you need to include the framework in your HTML file. You can either download the framework files and host them locally or include them directly from a CDN (Content Delivery Network) for faster loading.</p>
+  </div>
+  <div class="function-example">
+    <h3>CDN:</h3>
+    <pre><code>&lt;script src="https://d2vl5w9tpyt79r.cloudfront.net/nk-min.js">&lt;/script></code></pre>
+  </div>
+  <div class="function-description">
+    <p>Once the framework is included, you can start using its powerful shortcodes to manipulate HTML elements, apply styles, perform AJAX requests, and more. Refer to the function menu on the left for a list of available shortcodes and their usage examples.</p>
+  </div>
+  <div class="function-description">
+    <p>We hope that Nicolekate.js will streamline your web development workflow and help you build amazing websites with ease. Happy coding!</p>
+  </div>
+  
+  <div class="function-content">
+    <h2 id="introduction">Introduction</h2>
+    <div class="function-description">
+      <p>NicolekateJs is a JavaScript framework that utilizes shortcodes for faster and more efficient web development.</p>
+    </div>
+
+    <h2 id="append">append</h2>
+    <div class="function-description">
+      <p>Appends content to the target element(s).</p>
+    </div>
+    <div class="function-example">
+      <h3>Usage:</h3>
+      <pre><code>[append]appended[".myElement2"][/append]</code></pre>
+    </div>
+
+    <h2 id="prepend">prepend</h2>
+    <div class="function-description">
+      <p>Prepends content to the target element(s).</p>
+    </div>
+    <div class="function-example">
+      <h3>Usage:</h3>
+      <pre><code>[prepend]wow[".myElement3"][/prepend]</code></pre>
+    </div>
+
+    <h2 id="insertBefore">insertBefore</h2>
+    <div class="function-description">
+      <p>Inserts content before the target element(s).</p>
+    </div>
+    <div class="function-example">
+      <h3>Usage:</h3>
+      <pre><code>[insertBefore][".myElement3"]["#myElement"][/insertBefore]</code></pre>
+    </div>
+
+    <h2 id="html">html</h2>
+    <div class="function-description">
+      <p>Replaces the HTML content of the target element(s) with new content.</p>
+    </div>
+    <div class="function-example">
+      <h3>Usage:</h3>
+      <pre><code>[html]Hello, world!["#myElement"][/html]</code></pre>
+    </div>
+
+    <h2 id="css">css</h2>
+    <div class="function-description">
+      <p>Sets CSS styles for the target element(s).</p>
+    </div>
+<div class="function-example">
+<h3>Usage:</h3>
+<pre><code>[css]{"color": "red", "font-size": "20px"}["#myElement"][/css]</code></pre>
+</div>    <h2 id="ajax">ajax</h2>
+    <div class="function-description">
+      <p>Loads content from a URL and inserts it into the target element(s) using AJAX.</p>
+    </div>
+    <div class="function-example">
+      <h3>Usage:</h3>
+      <pre><code>[ajax]["data.json"]["#myElement"][/ajax]</code></pre>
+    </div>
+
+    <h2 id="addClass">addClass</h2>
+    <div class="function-description">
+      <p>Adds a CSS class to the target element(s).</p>
+    </div>
+    <div class="function-example">
+      <h3>Usage:</h3>
+      <pre><code>[addClass]["new-class"][".myElement3"][/addClass]</code></pre>
+    </div>
+
+    <h2 id="click">click</h2>
+    <div class="function-description">
+      <p>Triggers a click event on the target element(s).</p>
+    </div>
+    <div class="function-example">
+      <h3>Usage:</h3>
+      <pre><code>[click]["#myButton"][/click]</code></pre>
+    </div>
+
+    <h2 id="autofill">autofill</h2>
+    <div class="function-description">
+      <p>Automatically fills an input field with content.</p>
+    </div>
+    <div class="function-example">
+      <h3>Usage:</h3>
+      <pre><code>[autofill]Auto-filled content1["#inputbox"][/autofill]</code></pre>
+    </div>
+  </div>
+</div>
+  </div>
+</body>
+</html>
+
